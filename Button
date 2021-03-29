@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Toast toast = Toast.makeText(MainActivity.this,"����������ͨJava��ť",Toast.LENGTH_LONG);
+				Toast toast = Toast.makeText(MainActivity.this,"您点击了普通JAVA按钮",Toast.LENGTH_LONG);
 				toast.show();
 			}
 		});
@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Toast toast2 = Toast.makeText(MainActivity.this,"����������ͨXML��ť",Toast.LENGTH_LONG);
+				Toast toast2 = Toast.makeText(MainActivity.this,"您点击了普通XML按钮",Toast.LENGTH_LONG);
 				toast2.show();
 			}
 		});
@@ -42,13 +42,39 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Toast toast3 = Toast.makeText(MainActivity.this,"��������ͼƬ��ť",Toast.LENGTH_LONG);
+				Toast toast3 = Toast.makeText(MainActivity.this,"您点击了普通图片按钮",Toast.LENGTH_LONG);
 				toast3.show();
 			}
 		});
-    }
-
-
-   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 }
+
+
+
+//XML
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:background="#0000"
+        android:onClick="myClick" />
+
+</LinearLayout>
