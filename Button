@@ -1,0 +1,54 @@
+package com.example.button;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Button login = (Button)findViewById(R.id.button1);
+        login.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Toast toast = Toast.makeText(MainActivity.this,"����������ͨJava��ť",Toast.LENGTH_LONG);
+				toast.show();
+			}
+		});
+        
+        Button login2 = (Button)findViewById(R.id.button2);
+        login2.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Toast toast2 = Toast.makeText(MainActivity.this,"����������ͨXML��ť",Toast.LENGTH_LONG);
+				toast2.show();
+			}
+		});
+        
+        Button login3 = (Button)findViewById(R.id.imageButton1);
+        login3.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Toast toast3 = Toast.makeText(MainActivity.this,"��������ͼƬ��ť",Toast.LENGTH_LONG);
+				toast3.show();
+			}
+		});
+    }
+
+
+   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+}
