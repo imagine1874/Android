@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">liuyang</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="xinbie">性别</string>
+    <string name="nan">男</string>
+    <string name="n">女</string>
+    <string name="tijiao">提交</string>
+    <string name="aihao">爱好</string>
+    <string name="dalanqiu">篮球</string>
+    <string name="dayumaoqiu">羽毛球</string>
+    <string name="dayouxi">游戏</string>
+
+</resources>
