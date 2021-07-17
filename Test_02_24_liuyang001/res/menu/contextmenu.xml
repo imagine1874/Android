@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/size1" android:title="大号"></item>
+    <item android:id="@+id/size2" android:title="中号"></item>
+    <item android:id="@+id/size3" android:title="小号"></item>
+    <item android:id="@+id/size4" android:title="默认"></item>
+</menu>

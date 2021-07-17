@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/page02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/fanhui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:text="返回" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/page01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="行路难（其一）
+李白 〔唐代〕\n
+
+金樽清酒斗十千，玉盘珍羞直万钱。\n
+停杯投箸不能食，拔剑四顾心茫然。\n
+欲渡黄河冰塞川，将登太行雪满山。\n
+闲来垂钓碧溪上，忽复乘舟梦日边。\n
+行路难！行路难！多岐路，今安在？\n
+长风破浪会有时，直挂云帆济沧海" />
+
+</LinearLayout>

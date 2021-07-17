@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item >长沙</item>
+        <item >衡阳</item>
+        <item >浏阳</item>
+        <item >湘潭</item>
+        <item >株洲</item>
+    </string-array>
+    
+</resources>
